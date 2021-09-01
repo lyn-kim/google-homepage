@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     padding-top: 150px;
     display: block;
@@ -29,12 +34,12 @@ header {
 }
 
 ul {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 li {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 20px;
     font-size: 14px;
     color: #363636;
 }
@@ -57,7 +62,6 @@ li {
     font-size: 13px;
     text-align:center;
     font-weight: bold;
-    margin-right: 20px;
 }
 
 #search {
@@ -66,7 +70,16 @@ li {
     width: 140px;
     border-color: transparent;
     border-width: .1px;
-    border-type: solid;
+    border-style: solid;
     border-radius: 3px;
     color: #636363;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
 }
